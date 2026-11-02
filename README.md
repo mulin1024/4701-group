@@ -24,7 +24,7 @@ The purposive sample meets coverage targets of 40 data analyst, 20 business anal
 
 | File | Contents |
 | --- | --- |
-| gbus_data.xlsx | Required four-sheet workbook and 100 records |
+| 4701_data.xlsx | Required four-sheet workbook and 100 records |
 | 4701group.docx | Title page and project brief |
 | data/BA_job_postings.csv | UTF-8 copy of the 15-field main table |
 | data/coding_sheet.csv | Record-level role family, industry basis, AI coding basis and review status |
@@ -59,7 +59,7 @@ The purposive sample meets coverage targets of 40 data analyst, 20 business anal
 
 ## How to reproduce
 
-1. Download or clone this repository and preserve its folder structure. Open gbus_data.xlsx; read README and Coding_Rules before interpreting the records. Import Job_ID as text if using CSV.
+1. Download or clone this repository and preserve its folder structure. Open 4701_data.xlsx; read README and Coding_Rules before interpreting the records. Import Job_ID as text if using CSV.
 2. To reproduce the saved-pilot validation, run `python scripts/validate_pilot.py` from the repository root. Python 3.10 or later is sufficient; the script uses only the standard library. Alternatively, open validation.ipynb in Jupyter and run all cells. Jupyter is optional and is not a collection tool.
 3. To repeat collection, follow docs/COLLECTION_PROTOCOL.md, starting with the recorded source pages and role/city keywords. Locate individual cards by company, title and city; do not infer facts from page titles. Use only accessible public information. Record a new collection date and any source changes.
 4. Transcribe the visible fields, preserve salary notation, record industry evidence, paraphrase the excerpt and apply the coding rules. Log uncertain or missing evidence instead of filling it with assumptions. Apply the deduplication key and role targets, then assign IDs and re-run validation.
